@@ -1,6 +1,7 @@
-I am Naga Sai Tejaswi Gandu, NagaSaiTejaswi_Gandu@student.uml.edu
-My student ID is : 01987559.
+Name: Naga Sai Tejaswi Gandu
+Student Email ID: NagaSaiTejaswi_Gandu@student.uml.edu
+Student ID is : 01987559.
+Github ID is: NagaSaiTejaswi-Gandu
 
 I am working with Soham Prasad Kulkarni and Akshay Kolli in a team of 3.
-
 We are working on the project "Efficient course permission number distribution".
