@@ -1,26 +1,42 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "bootstrap/dist/css/bootstrap.min.css";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Header from "./components/Header";
+import HomePage from "./pages/HomePage";
+import UserRegistrationPage from "./pages/UserRegistrationPage";
+import UserLoginPage from "./pages/UserLoginPage";
+import ProfessorAdmin from "./pages/ProfessorAdmin";
+import ProfessorProfilePage from "./pages/ProfessorProfilePage";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div className="App">
+        <Routes>
+          <Route
+            path="/"
+            element={<HomePage title="Permission Number System" />}
+          ></Route>
+          <Route
+            path="/user-registration"
+            element={<UserRegistrationPage title="PNS Sign up" />}
+          />
+          <Route
+            path="/user-login"
+            element={<UserLoginPage title="PNS Login" />}
+          ></Route>
+          <Route
+            path="/profadmin"
+            element={<ProfessorAdmin title="Professor Admin" />}
+          />
+          <Route
+            path="/ppp"
+            element={<ProfessorProfilePage title="Professor Admin" />}
+          />
+        </Routes>
+      </div>
+    </Router>
   );
-}
+};
 
 export default App;
