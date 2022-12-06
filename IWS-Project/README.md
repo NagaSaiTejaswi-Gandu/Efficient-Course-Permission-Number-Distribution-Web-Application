@@ -1,4 +1,4 @@
-"Permission number distribution system"
+# "Permission number distribution system"
 PNDS is a website where professors and students can login using their UML credentials and setup and communicate permission numbers.
 
 How it works:
