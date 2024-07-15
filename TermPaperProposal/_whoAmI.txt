@@ -1,6 +1,0 @@
-Name: Naga Sai Tejaswi Gandu
-Student Email ID: NagaSaiTejaswi_Gandu@student.uml.edu
-Student ID is : 01987559.
-Github ID is: NagaSaiTejaswi-Gandu
-
-I am working on the term paper: "Web Data Management".
